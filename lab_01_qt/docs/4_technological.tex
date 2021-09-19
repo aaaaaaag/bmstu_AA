@@ -1,4 +1,4 @@
-\chapter{ Технологический раздел}
+\chapter{Технологический раздел}
 \label{cha:technological}
 
     В данном разделе будут выбраны средства реплизации ПО, представлен листинг кода
@@ -7,10 +7,10 @@
     \section{Средства реализации}
         В данной работе используется язык программирования C++, так как
         язык позволяет написать программу, работающую относительно быстро. 
-        Проект выполнен в IDE CLion.
+        Проект выполнен в IDE CLion \cite{clion}.
 
-        Для замера процессорного времени была использована функция getCPUTime
-        реализованная David Robert Nadeau для Linux и Windows , использование которой представлено в листинге \ref{lst:getCPUTime}.
+        Для замера процессорного времени была использована функция getCPUTime \cite{getCPUTime}
+реализованная David Robert Nadeau для Linux и Windows , использование которой представлено в листинге \ref{lst:getCPUTime}.
 
         \begin{lstlisting}[language=C++, label=lst:getCPUTime, caption=Функция замера времени]
 
@@ -300,7 +300,7 @@ size_t Levenshtein::_recursionDamerauWithoutCash(const char* str1, size_t i, con
         Использование памяти на строках $s_1$, $s_2$ длиной n и m соответственно
         при использовании матрицы теоритически определяется формулой (\ref{formula:memory:matr}):
         \begin{equation}
-            V = (n + 1)(m + 1)sizeof(int) + 4sizeof(size\_t) + 2sizeof(char*) + sizeof(char)(n + m)
+            V = (n + 1)(m + 1)sizeof(int) + 2sizeof(size\_t) + 2sizeof(char*)
             \label{formula:memory:matr}
         \end{equation}
         
@@ -309,7 +309,7 @@ size_t Levenshtein::_recursionDamerauWithoutCash(const char* str1, size_t i, con
         при использовании рекурсии определяется максимальной глибиной стека вызовов,
         которая теоритически определяется формулой (\ref{formula:memory:rec}):
         \begin{equation}
-            V = sizeof(char)(n + m)  + (n + m)(2sizeof(char*) + 3sizeof(size\_t))
+            V = 2sizeof(char*) + 6sizeof(size\_t))
             \label{formula:memory:rec}
         \end{equation}
 \newpage

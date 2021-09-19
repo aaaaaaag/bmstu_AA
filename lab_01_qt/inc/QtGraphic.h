@@ -40,9 +40,9 @@ public:
         for (auto series: _series)
             chart->addSeries(series);
         chart->createDefaultAxes();
-        chart->axisX()->setTitleText("str_len");
-        chart->axisY()->setTitleText("time, sec");
-        chart->setTitle("time cmp");
+        chart->axisX()->setTitleText("длина строки");
+        chart->axisY()->setTitleText("время, сек");
+        chart->setTitle("Сравнение времени работы реализаций алгоритма Левенштейна");
 
         auto *chart_view = new QtCharts::QChartView(chart);
         chart_view->setRenderHint(QPainter::Antialiasing);

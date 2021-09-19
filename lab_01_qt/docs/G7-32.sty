@@ -46,7 +46,7 @@
  \chapter{\CYRZ\cyra\cyrk\cyrl\cyryu\cyrch\cyre\cyrn\cyri\cyre}%
 }
 \addto\captionsrussian{%список использованных источников
- \def\bibname{%
+    \bibname{%
   \CYRS\cyrp\cyri\cyrs\cyro\cyrk~
   \cyri\cyrs\cyrp\cyro\cyrl\cyrsftsn\cyrz\cyro\cyrv\cyra\cyrn\cyrn\cyrery\cyrh~
   \cyri\cyrs\cyrt\cyro\cyrch\cyrn\cyri\cyrk\cyro\cyrv}%
@@ -144,12 +144,12 @@
 }
 
 %Эти команды нужно вызвать для корректного определения титульной страницы
-\newcommand\NirStage[3]{\renewcommand\Nir@StageNo{#1}\renewcommand\Nir@StageType{#2}\renewcommand\Nir@StageTitle{#3}}%%virens added: номер госрегистрации
-\newcommand\NirIsAnnotacion[1]{\renewcommand\Nir@AnnOtchet{#1}} %%Если отчёт аннотационный
-\newcommand\NirOrgLongName[1]{\renewcommand\Nir@OrgLongName{#1}}
-\newcommand\NirBoss[2]{\renewcommand\Nir@BossPost{#1}\renewcommand\Nir@BossName{#2}}
-\newcommand\NirYear[1]{\renewcommand\Nir@Year{#1}}
-\newcommand\NirManager[2]{\renewcommand\Nir@ManagerPost{#1}\renewcommand\Nir@ManagerName{#2}}
-\newcommand\NirTown[1]{\renewcommand\Nir@Town{#1}}%%virens added: указываем город написания отчёта
-\newcommand\NirUdk[1]{\renewcommand\Nir@UdkName{#1}}%%virens added: для изменения УДК в тексте документа
+\newcommand\NirStage[3]{\Nir@StageNo{#1}\Nir@StageType{#2}\Nir@StageTitle{#3}}%%virens added: номер госрегистрации
+\newcommand\NirIsAnnotacion[1]{\Nir@AnnOtchet{#1}} %%Если отчёт аннотационный
+\newcommand\NirOrgLongName[1]{\Nir@OrgLongName{#1}}
+\newcommand\NirBoss[2]{\Nir@BossPost{#1}\Nir@BossName{#2}}
+\newcommand\NirYear[1]{\Nir@Year{#1}}
+\newcommand\NirManager[2]{\Nir@ManagerPost{#1}\Nir@ManagerName{#2}}
+\newcommand\NirTown[1]{\Nir@Town{#1}}%%virens added: указываем город написания отчёта
+\newcommand\NirUdk[1]{\Nir@UdkName{#1}}%%virens added: для изменения УДК в тексте документа
 \newcommand\NirGosNo[1]{\renewcommand\Nir@No{#1}}%%virens added: номер госрегистрации
