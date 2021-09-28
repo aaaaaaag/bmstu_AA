@@ -1,0 +1,6 @@
+/home/denis/bmstu_AA/lab_01_qt/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/denis/bmstu_AA/lab_01_qt/cmake-build-debug/CMakeFiles/lab_01_qt_debug.dir
+/home/denis/bmstu_AA/lab_01_qt/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/denis/bmstu_AA/lab_01_qt/cmake-build-debug/CMakeFiles/lab_01_qt.dir
+/home/denis/bmstu_AA/lab_01_qt/cmake-build-debug/CMakeFiles/lab_01_qt_debug_autogen.dir
+/home/denis/bmstu_AA/lab_01_qt/cmake-build-debug/CMakeFiles/lab_01_qt_autogen.dir

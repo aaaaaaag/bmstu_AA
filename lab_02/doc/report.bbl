@@ -1,0 +1,33 @@
+\begin{thebibliography}{1}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\language\csname l@#1\endcsname\fi}
+\ifx\undefined\url\def\url#1{{\small #1}}\else\fi
+\ifx\undefined\BibUrl\def\BibUrl#1{// [Электронный ресурс].
+  Режим доступа: \url{#1}}\else\fi
+\ifx\undefined\BibAnnote\long\def\BibAnnote#1{}\else\fi
+\ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
+
+\bibitem{python}
+\selectlanguageifdefined{english}
+Python. \BibUrl{https://www.python.org/}, (дата обращения:
+  01.10.2020).
+
+\bibitem{visual-studio-code}
+\selectlanguageifdefined{english}
+Visual Studio Code - Code Editing. \BibUrl{https://code.visualstudio.com},
+  (дата обращения: 01.10.2020).
+
+\bibitem{process_time}
+\selectlanguageifdefined{english}
+Process time.
+  \BibUrl{https://docs-python.ru/standart-library/modul-time-python/funktsija-process-time-modulja-time},
+  (дата обращения: 01.10.2020).
+
+\bibitem{processor-i5-7200u}
+\selectlanguageifdefined{english}
+Intel® Core™ i5-7200U Processor.
+  \BibUrl{https://www.intel.com/content/www/us/en/products/processors/core/i5-processors/i5-7200u.html},
+  (дата обращения: 26.09.2020).
+
+\end{thebibliography}

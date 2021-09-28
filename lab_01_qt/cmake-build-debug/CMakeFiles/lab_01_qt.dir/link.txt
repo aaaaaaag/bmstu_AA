@@ -1,0 +1,2 @@
+/bin/ar qc liblab_01_qt.a CMakeFiles/lab_01_qt.dir/lab_01_qt_autogen/mocs_compilation.cpp.o CMakeFiles/lab_01_qt.dir/src/Levenshtein.cpp.o CMakeFiles/lab_01_qt.dir/src/Matrix.cpp.o CMakeFiles/lab_01_qt.dir/src/QtGraphic.cpp.o
+/bin/ranlib liblab_01_qt.a
